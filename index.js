@@ -9,7 +9,7 @@ app.use(cors())
 const port = process.env.PORT || 5000;
 app.use(express.json());
 app.get('/',(req,res)=>{
-    res.send("Hello Free Doctors portal backend sever")
+    res.send("Hello Free Doctors portal  sever")
 })
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.7auxx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
